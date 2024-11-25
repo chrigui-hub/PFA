@@ -1,0 +1,1056 @@
+ 
+ 
+ body {
+    height: 100%;
+    background-color: #000000 ;
+    
+        margin: 0; /* Ensure no default margin causes overflow */
+        padding: 0;
+        overflow-x: hidden; /* Prevent horizontal overflow */
+   
+    
+    /* Other styles */
+    
+  
+}
+
+
+ .nbar {
+  
+    position:fixed;
+    top :0%;
+    width: 99.9%;
+    height: 14%;
+    right: 0%;
+    background-color: #000000 ;
+    z-index: 2000;
+
+  
+
+ }
+
+
+ 
+
+
+ 
+ li{
+    color: #e6e6e6;
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    position: relative;
+    left: 18%;
+    bottom:2%;
+    margin-top:17px ;
+    font-family:cursive;
+    
+    
+
+       
+
+}
+
+
+
+
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 20px;
+
+ 
+}
+a:hover{
+    color:rgb(216, 18, 18);
+}
+.cnx{
+    background-color:rgb(216, 18, 18);
+}
+
+.cnx:hover{
+    background-color: #fff;
+    color:rgb(216, 18, 18);
+}
+
+
+
+.berserk{
+    position: fixed;
+    top: 5px;
+    z-index: 2000;
+
+
+}
+.berserk:hover{
+    
+    transform: scale(0.97,0.97);
+
+}
+
+
+.welc{
+    width: 98.5%;
+    height: 162%;
+    border-radius: 0 0 200px 200px;
+    position: absolute;
+    top: 15%;
+    background: url("../img/black.jpg")no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed; 
+   
+    
+
+
+    
+ }
+
+ .ezio{
+    position: absolute;
+    top: 18%;
+    left: 65%;
+  
+    
+    
+ }
+ .ez{
+    border-radius: 15px;
+ }
+
+
+.ez:hover{
+    transform: scale(0.98,0.98);
+}
+
+
+
+
+ .description{
+    width: 40%;
+    display: block;
+    background-color: #000000;
+    position: absolute;
+    top: 11%;
+    left: 10%;
+ }
+
+ .description,h1,h2{
+    font-size: 30px;
+    font-family: cursive;
+    color: rgb(252, 210, 23);
+    padding: 3px;
+ }
+
+ .ccout{
+
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    color: #e6e6e6;
+    border-radius: 100%;
+    border: #e6e6e6 solid 1px;
+    background-color: rgb(171, 38, 29);
+    padding-right: 20px;
+    bottom: 3px;
+    right: 82%;
+    
+ }
+
+.cout{
+    position: relative;
+    left:14px;
+    bottom: 18px;
+    font-family:cursive ;
+}
+
+
+
+.ddiscount{
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    color: #e6e6e6;
+    border-radius: 100%;
+    border: #e6e6e6 solid 1px;
+    background-color: rgb(25, 38, 89);
+    padding-right: 20px;
+    bottom: 85%;
+    left: 80%;
+
+    
+}
+
+
+.discount{
+    position: relative;
+    left:5px;
+    bottom: 18px;
+    font-family:cursive ;
+}
+
+
+
+
+
+.trend{
+    border: #e6e6e6 solid 1px;
+    border-radius: 30px;
+    position:absolute;
+    width: 95%;
+    height:160% ;
+    top: 178%;
+    left: 2.5%;
+    background: url("../img/guts.jpg")no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed; 
+}
+
+
+
+
+.g{
+    position: relative;
+    right: 114px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+
+.g:hover{
+    transform: scale(0.9,0.9);
+}
+
+.gname{
+    position: relative;
+    right: 90px;
+    bottom: 8px;
+    padding-right: 5px;
+}
+
+  
+
+
+
+
+
+
+ footer{
+    height: 25%;
+   
+    border-radius:95px 0 0 95px ;
+    position: absolute;
+    top: 343%;
+    width: 99%;
+    background-color: #000000;
+ }
+
+
+
+
+
+.g1{
+    position: absolute;
+      left: 11.5%;
+  }
+  
+.g2{
+      position: absolute;
+      left: 39.5%;
+    }
+    
+.g3{
+      position: absolute;
+      left: 51.5%;
+}
+
+
+
+
+
+ /*page boutique.html*/
+
+ .welc2{
+    width: 98.5%;
+    height: 300%;
+    border-radius: 0 0 200px 200px;
+    position: absolute;
+    top: 15%;
+    
+    background: url("../img/guts4.jpg")no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed; 
+   
+    
+    
+
+ }
+
+ 
+
+
+ .nbar2{
+    position: absolute;
+    left: 35%;
+    top: 6%;
+    z-index: 1000;
+ }
+  .nbar2  li {
+    background-color: #c21313;
+    border-radius: 20px;;
+    font-size: 20px;
+    margin-right: 14px;
+    
+}
+
+
+.nbar2  li a:hover{
+    color:rgb(245, 220, 220);
+   
+    
+}
+ .trend2{
+    
+    border-radius: 30px;
+    position:absolute;
+    width: 95%;
+    height:95% ;
+    top: 5%;
+    left: 2.75%;
+
+
+ }
+
+ .gg2{
+    position: relative;
+    right: 114px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    top: 130px;
+ }
+
+ .gg2:hover{
+    transform: scale(0.9,0.9);
+}
+
+
+
+
+.gg3{
+    position: relative;
+    right: 114px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    top: 260px;
+ }
+
+ .gg3:hover{
+    transform: scale(0.9,0.9);
+}
+
+
+
+    .g01{
+        position: absolute;
+          left: 11.9%;
+      }
+
+.g02{
+    position: absolute;
+    left: 35%;
+  }
+
+
+  .g03{
+    position: absolute;
+    left: 58%;
+  }
+
+.g4{
+    position: absolute;
+    top: 59.5%;
+      left: 12%;
+  }
+  
+.g04{
+    position: absolute;
+    top: 59.5%;
+      left: 12%;
+}
+.g5{
+      position: absolute;
+      left: 29.5%;
+      top: 59.5%;
+    }
+    
+.g05{
+        position: absolute;
+        left: 35.8%;
+        top: 59.5%;
+      }
+         
+.g6{
+      position: absolute;
+      left: 57.5%;
+      top: 59.5%;
+    }
+
+
+ .g06{
+        position: absolute;
+        left: 59.5%;
+        top: 59.5%;
+ }
+
+
+
+.g7{
+        position: absolute;
+        top: 80%;
+        left: 15%;
+    }
+      
+
+ .g07{
+        position: absolute;
+        top: 79.5%;
+          left: 12.8%;
+    }
+
+.g8{
+        position: absolute;
+        top: 80%;
+        left: 35.5%;
+    }
+      
+    
+.g08{
+        position: absolute;
+        top: 79.5%;
+        left: 35.5%;
+    }
+          
+.g9{
+        position: absolute;
+        left: 53%;
+        top: 80%;
+    }    
+
+
+    .g09{
+        position: absolute;
+        left: 57%;
+        top: 79.5%;
+    }    
+
+
+
+h3{
+    color: #e6f586;
+    background-color: #000000;
+}
+
+
+.footer2{
+    height: 10%;
+   
+    border-radius:95px 0 0 95px ;
+    position: absolute;
+    top: 100%;
+    width: 99%;
+    background-color: #000000;
+ }
+
+.footercom{
+    height: 27%;
+   
+    border-radius:95px 0 0 95px ;
+    position: absolute;
+    top: 135%;
+    width: 99%;
+    background-color: #000000;
+}
+
+.footerlou{
+    height: 27%;
+   
+    border-radius:95px 0 0 95px ;
+    position: absolute;
+    top: 175%;
+    width: 99%;
+    background-color: #000000;
+}
+
+.footercon{
+    height: 27%;
+   
+    border-radius:95px 0 0 95px ;
+    position: absolute;
+    top: 103%;
+    width: 99%;
+    background-color: #000000;
+}
+
+.footercnxx {
+    height: 27%;
+   
+    border-radius:95px 0 0 95px ;
+    position: absolute;
+    top: 103%;
+    width: 99%;
+    background-color: #000000;
+}
+
+
+
+
+
+/* detail.html*/
+
+
+.welc3{
+    width: 98.5%;
+    height: 550%;
+    border-radius: 0 0 200px 200px;
+    position: absolute;
+    top: 10%;
+    
+    background: url("../img/guts6.jpg")no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed; 
+   
+    
+   
+
+ }
+
+
+
+
+.txt{
+
+    font-size: 30px;
+    font-family: cursive;
+    color: #e6f586;
+    padding-bottom: 24px;
+    padding-right: 40px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+ .tab{
+
+    position:absolute;
+    top: 3%;
+   
+ }
+ table{
+    padding-left:15px ;
+    margin-right: 15px;
+    padding-top: 6px;
+    
+    width: 80%;
+    width: 100%;
+ }
+
+ .footer3{
+    height: 10%;
+   
+    border-radius:95px 0 0 95px ;
+    position: absolute;
+    top: 650%;
+    width: 99%;
+    background-color: #000000;
+ }
+
+
+
+
+
+
+
+/* dj1.html*/
+
+
+
+.welcdj1{
+    .welc3{
+        width: 98.5%;
+        height: 350%;
+        border-radius: 0 0 200px 200px;
+        position: absolute;
+        top: 10%;
+        
+      
+        
+       
+    
+     }
+    
+}
+
+.tabdj1{
+
+    position:absolute;
+    top: 24%;
+   
+ }
+
+ .cbutton{
+    font-size: 40px;
+    font-family: cursive; 
+    color:black;
+    border-radius: 20px;
+    position: absolute;
+    top: 89%; 
+    left: 61%;  
+    background-color: rgb(235, 238, 45);
+    cursor: pointer;
+ }
+
+
+
+.cbutton:hover{
+
+    background-color: #524b4b;
+    color: white;
+}
+
+.cprice{
+    font-size: 30px;
+    font-family: cursive; 
+    color:black;
+    border-radius: 50%;
+    position: absolute;
+    top: 80%;
+    background-color: rgb(235, 238, 45);
+     
+    padding :40px 5px 40px  5px; 
+}
+
+
+
+
+
+ .footerdj1{
+    height: 10%;
+   
+    border-radius:95px 0 0 95px ;
+    position: absolute;
+    top: 150%;
+    width: 99%;
+    background-color: #000000;
+ }
+
+
+
+
+
+
+
+ /* contact.html */
+
+
+ .welc4{
+    width: 98.5%;
+    height: 120%;
+    border-radius: 0 0 200px 200px;
+    position: absolute;
+    top: 10%;
+    
+    background: url("../img/guts3.jpg")no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed; 
+   
+    
+   
+
+ }
+
+
+
+.smcont{
+    position: absolute;
+    left: 27.5%;
+}
+
+
+ .footer4{
+    height: 25%;
+   
+    border-radius:95px 0 0 95px ;
+    position: absolute;
+    top: 110%;
+    width: 99%;
+    background-color: #000000;
+}
+
+
+
+  /* connecter.html */
+
+
+  .welc5{
+    width: 98.5%;
+    height: 120%;
+    border-radius: 0 0 200px 200px;
+    position: absolute;
+    top: 10%;
+    
+    background: url("../img/guts5.jpg")no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed; 
+   
+    
+   
+
+ }
+
+.formcontainer{
+
+
+   /*background: url("../img/red2.jpg")no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed; */
+    background-color: #000000;
+    border: #ffffff solid 2px;
+    border-radius:20px ;
+    position: absolute;
+    width: 42.5%;
+    height: 41%;
+    top: 20%;
+    left: 25%;
+    
+    font-family: Arial, sans-serif;
+     line-height: 2.5;
+   
+     
+}
+
+
+
+
+
+label{
+    font-size: 25px;
+    font-family: cursive;
+    color: #e6e6e6;
+    background-color:rgb(193, 60, 60);
+    border-radius: 20px;
+}
+input{
+    font-size: 18px;
+    margin-left: 20px;
+
+
+}
+.sub{
+    font-family: cursive;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    background-color: #c21313;
+}
+
+.sub:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #c21313;
+}
+
+.res{
+    font-family: cursive;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    background-color: #ef4f4f;
+   
+
+
+}
+
+
+.res:hover{
+    background-color: white;
+    color:#ef4f4f;
+    cursor: pointer;
+}
+
+
+.srcontainer{
+    position: absolute;
+    top: 15%;
+}
+
+
+
+
+
+
+.formcontainercommande{
+
+
+    /*background: url("../img/red2.jpg")no-repeat;
+     background-position:center;
+     background-size:cover;
+     background-attachment: fixed; */
+     background-color: #000000;
+     border: #ffffff solid 2px;
+     border-radius:20px ;
+     position: absolute;
+     width: 40.5%;
+     height: 108%;
+     top: 20%;
+     left: 27%;
+     
+     font-family: Arial, sans-serif;
+      line-height: 3;
+      
+    
+      
+ }
+
+
+ .formcontainercommande td {
+    padding: 0 90px 0 0;
+ }
+
+
+
+
+ .formcontainerlouer{
+    /*background: url("../img/red2.jpg")no-repeat;
+     background-position:center;
+     background-size:cover;
+     background-attachment: fixed; */
+     background-color: #000000;
+     border: #ffffff solid 2px;
+     border-radius:20px ;
+     position: absolute;
+     width: 40.5%;
+     height: 145%;
+     top: 20%;   
+     left: 27%;
+     
+     font-family: Arial, sans-serif;
+      line-height: 3;
+
+ }
+ .formcontainerlouer td {
+    padding: 0 90px 0 0;
+ }
+
+
+
+
+
+
+
+
+ .sub2{
+    font-family: cursive;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    background-color: #c21313;
+}
+
+.sub:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #c21313;
+}
+
+.res2{
+    font-family: cursive;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    background-color: #ef4f4f;
+   
+
+
+}
+
+
+
+
+
+
+
+
+
+.welc6{
+    width: 98.5%;
+    height: 140%;
+    border-radius: 0 0 200px 200px;
+    position: absolute;
+    top: 10%;
+    
+    background: url("../img/guts5.jpg")no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed; 
+   
+    
+   
+
+ }
+
+
+ 
+
+
+ .formcontainerreclamer{
+
+
+    /*background: url("../img/red2.jpg")no-repeat;
+     background-position:center;
+     background-size:cover;
+     background-attachment: fixed; */
+     background-color: #000000;
+     border: #ffffff solid 2px;
+     border-radius:20px ;
+     position: absolute;
+     width: 42.5%;
+     height: 60%;
+     top: 20%;
+     left: 25%;
+     
+     font-family: Arial, sans-serif;
+      line-height: 2.5;
+    
+      
+ }
+
+
+
+ .formcontainercons{
+    background-color: #000000;
+     border: #ffffff solid 2px;
+     border-radius:20px ;
+     position: absolute;
+     width: 42.5%;
+     height: 40%;
+     top: 20%;
+     left: 25%;
+     
+     font-family: Arial, sans-serif;
+      line-height: 2.5;
+    
+ }
+ 
+
+
+ .formcontainercl{
+
+
+    /*background: url("../img/red2.jpg")no-repeat;
+     background-position:center;
+     background-size:cover;
+     background-attachment: fixed; */
+     background-color: #000000;
+     border: #ffffff solid 2px;
+     border-radius:20px ;
+     position: absolute;
+     width: 42.5%;
+     height: 75%;
+     top: 20%;
+     left: 25%;
+     
+     font-family: Arial, sans-serif;
+      line-height: 2.5;
+    
+      
+ }
+
+
+ 
+
+
+ .welc7{
+    width: 98.5%;
+    height: 170%;
+    border-radius: 0 0 200px 200px;
+    position: absolute;
+    top: 10%;
+    
+    background: url("../img/guts7.jpg")no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed; 
+   
+    
+   
+
+ }
+
+
+
+ .welc6{
+    width: 98.5%;
+    height: 120%;
+    border-radius: 0 0 200px 200px;
+    position: absolute;
+    top: 10%;
+    
+    background: url("../img/guts5.jpg")no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed; 
+   
+    
+   
+
+ }
+
+
+
+ .welc8{
+    width: 98.5%;
+    height: 120%;
+    border-radius: 0 0 200px 200px;
+    position: absolute;
+    top: 10%;
+    
+    background: url("../img/guts8.jpg")no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed; 
+   
+    
+   
+
+ }
+
+
+
+ @media screen and (min-width: 1367px) and (max-width: 1440px) {
+    /* CSS rules specific to screens between 1367px and 1440px wide */
+    .nbar {
+        position:fixed;
+        top :0%;
+        width: 99.9%;
+        height: 14%;
+        right: 1%;
+        background-color: #000000 ;
+        z-index: 2000;
+    }
+}
+   
+      

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reclamer</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/test.js"></script>
+</head>
+<body>
+    <div class="nbar">
+      
+      
+        <nav>
+           <ul>
+              <li class="leftc"><a href="index.html">Acceuil</a></li>
+              <li><a href="boutique.html">Notre boutique</a></li>
+              <li><a href="louer.html">Louer produits</a></li>
+              <li><a href="reclamer.html">reclamer</a></li>
+              <li><a href="consultation.html">consultation</a></li>
+              <li><a class="cnx" href="connecter.html">Se connecter</a></li>
+           </ul>
+        </nav>
+     </div>
+     <a href="index.html">
+      <img width="200px" height="120" class="berserk" src="../img/berserk.png" alt="" >
+   </a>
+
+
+   <div class="welc4">
+
+    </div>
+
+    <div class="formcontainerreclamer">
+        <center><label >reclamer:</label></center>
+ 
+        <form action="../php/reclamer.php" method="post">
+         <table>
+             <tr>
+                 <td><label for="">id_commande</label></td>
+                 <td> <input required type="number" name="idcom" id="idcom" min="1"  ></td>
+             </tr>
+             <tr>
+                 <td><label for="">titre</label></td>
+                 <td> <input required type="text" name="titre" id="titre" placeholder="sujet"></td>
+             </tr>
+             <tr>
+                 <td><label for="">description</label></td>
+                 <td><textarea required style="position: relative; left: 20px;"   placeholder="type somthing" name="desc" id="desc" cols="27" rows="5"></textarea></td>
+                 
+             </tr>
+             
+            
+             <tr >
+                 <td><input  onclick=" return verifrec()" class="sub" type="submit" id="submit" value="Valider"></td>
+                 <td><input class="res" type="reset" name="" id="adr"></td>
+             </tr>
+       
+ 
+        </table>
+    </div>  
+    <footer class="footer4">
+        <h1>Site réalisé par: Chrigui Ghassen  | Farhat Hamza </h1>
+        <h1>Copyright © 2024 BERSERK Gaming Company. All rights reserved.</h1>
+     </footer>
+    
+</body>
+</html>

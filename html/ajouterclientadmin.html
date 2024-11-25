@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajouterclientadmin</title>
+    <link rel="stylesheet"  href="../css/style.css">
+    <script src="../js/test.js"></script>
+</head>
+<body>
+    
+    <div class="nbar">
+      
+      
+        <nav>
+           <ul>
+              <li class="leftc"><a href="index.html">Acceuil</a></li>
+              <li><a href="boutique.html">Notre boutique</a></li>
+              <li><a href="louer.html">Louer  produits</a></li>
+              <li><a href="reclamer.html">reclamer</a></li>
+              <li><a href="consultation.html">consultation</a></li>
+              <li><a class="cnx" href="connecter.html">Se connecter</a></li>
+           </ul>
+        </nav>
+     </div>
+     <a href="index.html">
+      <img width="200px" height="120" class="berserk" src="../img/berserk.png" alt="" >
+   </a>
+
+   <div class="welc5">
+
+    </div>
+
+    <div class="formcontainercommande">
+        <center><label >ajout client</label></center>
+ 
+        <form action="../php/ajoutclientadmin.php" method="post">
+         <table>
+             <tr>
+                 <td><label for="">Cin</label></td>
+                 <td> <input required type="text" name="cin" id="cin" maxlength="8"></td>
+             </tr>
+
+             <tr>
+                <td><label for="">email</label></td>
+                <td> <input required type="text" name="email" id="email"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="">nom</label></td>
+                <td> <input required type="text" name="nom" id="nom"></td>
+            </tr>
+
+            <tr>
+                <td><label for="">prenom</label></td>
+                <td> <input required type="text" name="pre" id="pre"></td>
+            </tr>
+
+            
+            <tr>
+                <td><label for="">num</label></td>
+                <td> <input required type="text" name="num" id="num" maxlength="8"></td>
+            </tr>
+
+           
+                <td><input    onclick=" return verifcommande()" class="sub" type="submit" id="submit" value="Valider"></td>
+                <td><input class="res" type="reset" name="" id="adr"></td>
+            </tr>
+         </table> 
+        </form> 
+    </div>   
+
+</body>
+</html>

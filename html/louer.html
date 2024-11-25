@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>louer</title>
+    <link rel="stylesheet"  href="../css/style.css">
+    <script src="../js/test.js"></script>
+</head>
+<body onload="datelocmiseajour()">
+    
+    <div class="nbar">
+      
+      
+        <nav>
+           <ul>
+              <li class="leftc"><a href="index.html">Acceuil</a></li>
+              <li><a href="boutique.html">Notre boutique</a></li>
+              <li><a href="louer.html">Louer  produits</a></li>
+              <li><a href="reclamer.html">reclamer</a></li>
+              <li><a href="consultation.html">consultation</a></li>
+              <li><a class="cnx" href="connecter.html">Se connecter</a></li>
+           </ul>
+        </nav>
+     </div>
+     <a href="index.html">
+      <img width="200px" height="120" class="berserk" src="../img/berserk.png" alt="" >
+   </a>
+
+   <div class="welc7">
+
+    </div>
+
+    <div class="formcontainerlouer">
+        <center><label >Louer:</label></center>
+ 
+        <form action="../php/louer.php" method="post">
+         <table>
+             <tr>
+                 <td><label for="">Cin</label></td>
+                 <td> <input required type="text" name="cin" id="cin" maxlength="8"></td>
+             </tr>
+
+             <tr>
+                <td><label for="">email</label></td>
+                <td> <input required type="text" name="email" id="email"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="">nom</label></td>
+                <td> <input required type="text" name="nom" id="nom"></td>
+            </tr>
+
+            <tr>
+                <td><label for="">prenom</label></td>
+                <td> <input required type="text" name="pre" id="pre"></td>
+            </tr>
+
+            
+            <tr>
+                <td><label for="">num</label></td>
+                <td> <input required type="text" name="num" id="num" maxlength="8"></td>
+            </tr>
+
+            <tr>
+                <td><label for="">produit</label></td>
+                <td>
+                    <select name="idproduit" id="idproduit"  onchange="updatePrice()"  style=" width: 228px; font-size: 20px; position:absolute;left: 43.65%; bottom: 44.5%;">
+                        <option selected="">choisir un produit</option>
+                        <optgroup label="pc gamers"></optgroup>
+                        <option value="13" data-price="728">COD.5 | I5-13400F</option>
+                        <option value="14" data-price="650">Void 3 | Intel I5-10400F</option>
+                        <option value="15" data-price="600">Dark 1 | RYZEN 5 4600G</option>
+
+                        <optgroup label="claviers"></optgroup>
+                        <option value="16" data-price="19" >SPIRIT OF GAMER PRO K5</option>
+                        <option value="17" data-price="12">MARS GAMING MKAX H-MECHANICAL TKL</option>
+                        <option value="18" data-price="5">CLAVIER STARWAVE MK1112</option>
+
+                        <optgroup label="souris"></optgroup>
+                        <option value="19" data-price="14"> SOURIS GAMING GM1142 GAMING</option>
+                        <option value="20" data-price="17">SOURIS GAMING GM1142 GAMING</option>
+                        <option value="21" data-price="19">SOURIS GAMING XVMX9 GAMING</option>
+
+                        <optgroup label="casques"></optgroup>
+                        <option value="22" data-price="10">Casque Stéréo en Noir SBOX HS-736</option>
+                        <option value="23" data-price="19">WHITE SHARK GH-1947 MARGAY</option>
+                        <option value="24" data-price="22">WHITE SHARK GH-2140 OX</option>
+                        
+                        
+                    
+                    </select>
+                </td>
+            
+                    
+                
+                </tr>
+                <td><label for="">prix ini</label></td>
+                    <td><input readonly id="prixp" name="prixp">  </td>
+                <tr>
+
+            </tr>
+            <tr>
+                <td><label for="">quantité </label></td>
+                <td> <input  type="number" name="qte" id="qte"  min="1" value="1" ></td>
+            </tr>
+            <tr>
+                <td><label for="">dateloc </label></td>
+                <td><input  type="date" name="dateloc" id="dateloc" readonly ></td>
+            </tr>
+            <td>
+                <label for="">dateret </label></td>
+                <td><input  type="date" name="dateret" id="dateret"  ></td>
+            </tr>
+            <tr >
+                <td><input    onclick=" return verifloc()" class="sub" type="submit" id="submit" value="Valider"></td>
+                <td><input class="res" type="reset" name="" id="adr"></td>
+            </tr>
+         </table> 
+        </form> 
+    </div>  
+    
+    <footer class="footerlou">
+        <h1>Site réalisé par: Chrigui Ghassen  | Farhat Hamza </h1>
+        <h1>Copyright © 2024 BERSERK Gaming Company. All rights reserved.</h1>
+     </footer>
+
+</body>
+</html>
